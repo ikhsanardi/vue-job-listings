@@ -1,8 +1,22 @@
 <script setup>
-import { defineProps } from "vue";
+import { defineProps, ref, computed } from "vue";
 
-defineProps({
+const props = defineProps({
   job: Object,
+});
+
+const showFullDesc = ref(false);
+const toogleFullDesc = () => {
+  showFullDesc.value = !showFullDesc.value;
+};
+
+const shortDesc = computed(() => {
+  let desc = props.job.description;
+  if (!showFullDesc.value) {
+    desc = desc.substring(0, 90) + "...";
+  }
+
+  return desc;
 });
 </script>
 
@@ -15,7 +29,13 @@ defineProps({
       </div>
 
       <div class="mb-5">
-        {{ job.description }}
+        <div>{{ shortDesc }}</div>
+        <button
+          @click="toogleFullDesc"
+          class="text-green-500 hover:text-green-600 mb-5"
+        >
+          {{ showFullDesc ? "Show Less" : "Read More" }}
+        </button>
       </div>
 
       <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>
