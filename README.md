@@ -4,13 +4,13 @@ The app provides a simple and intuitive interface for managing job listings, dem
 
 ## Key Features
 
-1. Create New Job Listings
+1. Create New Job Listings  
    Users can add job listings by filling out a form with relevant details, which are then stored in the JSON Server.
 
-2. Update Job Listings
+2. Update Job Listings  
    Existing job listings can be edited, allowing users to update information dynamically.
 
-3. Delete Job Listings
+3. Delete Job Listings  
    Users can remove job listings from the app, ensuring the storage stays clean and up-to-date.
 
 ## Project Setup
