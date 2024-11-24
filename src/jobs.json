@@ -83,62 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "93b2",
-      "type": "Internship",
-      "name": "Sanford Parisian",
-      "description": "Itaque ratione facere tempore quia ducimus explicabo esse labore architecto.",
-      "salary": "$90K - $100K",
-      "location": "Cole, Hane and Schiller",
-      "company": {
-        "name": "Reichel - Johns",
-        "description": "Koepp - Strosin",
-        "contactEmail": "your.email+fakedata65098@gmail.com",
-        "contactPhone": "199-475-3080"
-      }
-    },
-    {
-      "id": "542f",
-      "type": "Internship",
-      "name": "Sanford Parisian",
-      "description": "Itaque ratione facere tempore quia ducimus explicabo esse labore architecto.",
-      "salary": "$90K - $100K",
-      "location": "Cole, Hane and Schiller",
-      "company": {
-        "name": "Reichel - Johns",
-        "description": "Koepp - Strosin",
-        "contactEmail": "your.email+fakedata65098@gmail.com",
-        "contactPhone": "199-475-3080"
-      }
-    },
-    {
-      "id": "3178",
-      "type": "Internship",
-      "name": "Jakob Walsh",
-      "description": "Non accusamus architecto cumque excepturi.",
-      "salary": "Over $200K",
-      "location": "Murphy and Sons",
-      "company": {
-        "name": "Beier Group",
-        "description": "Rath - Gerlach",
-        "contactEmail": "your.email+fakedata94352@gmail.com",
-        "contactPhone": "926-927-8968"
-      }
-    },
-    {
-      "id": "8ab1",
-      "type": "Remote",
-      "name": "Tobin Murray",
-      "description": "Nulla iste sunt.",
-      "salary": "$175K - $200K",
-      "location": "Nicolas - Smith",
-      "company": {
-        "name": "Lockman and Sons",
-        "description": "Considine - Bergstrom",
-        "contactEmail": "your.email+fakedata66528@gmail.com",
-        "contactPhone": "343-828-0380"
-      }
     }
   ]
 }
